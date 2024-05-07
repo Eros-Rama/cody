@@ -122,7 +122,7 @@ class Bot:
                 self.state.mode = user_input
                 self.llm.stream_callback.on_llm_new_token(
                     f'Received your request for {user_input}. Please continue with the convo.')
-                self.update_conv(update_db)  # Update the conversation history.
+                self.update_conv(update_db)  # Update the conversation history
                 self.stream.close()  # Close the stream.
                 return
 
