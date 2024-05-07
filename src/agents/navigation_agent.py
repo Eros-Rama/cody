@@ -101,7 +101,7 @@ class NavigationAgent(agents.Agent):
         response = llm(conv_hist, seed=0, functions=functions, prompt_test='prompt_test' in self.state.mode)
         self.conv_hist.append(response)
 
-        # Checking if a function call was made
+        # Checking if a function call was mad
         function_response, arguments = check_function_call(
             response, self.tools)
         if function_response is None:
