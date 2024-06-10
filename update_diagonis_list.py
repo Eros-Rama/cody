@@ -12,6 +12,8 @@ generate_exception_csv = False
 csv_file_path = "exceptions.csv"
 
 
+
+
 def init():
     # conv_hist.diagnosis_agent is array and need to check if it has elements
     created_date_regex = '2023'

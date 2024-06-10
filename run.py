@@ -12,6 +12,9 @@ def init():
     bot = Bot(username='test')
     for conv in bot.get_conv_hist():
         logging.info(conv)
+
+
+
 init()
 
 while True:

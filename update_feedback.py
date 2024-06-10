@@ -7,6 +7,8 @@ logging.getLogger().setLevel(logging.INFO)
 dry_run = True
 
 
+
+
 def init():
     # conv_hist.diagnosis_agent is array and need to check if it has elements
 

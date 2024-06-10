@@ -18,6 +18,8 @@ csv_file_path = "exceptions.csv"
 dx_group_dict = {}
 
 
+
+
 def init_dx_mapping():
     with open('CodyMD Medical Terminology _ Taxonomy - DxGroupsV2.csv', 'r') as csv_file:
         reader = csv.DictReader(csv_file)
