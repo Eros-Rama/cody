@@ -11,6 +11,8 @@ def find_user_session(session_id: str):
     return MongoDBClient.get_sessions().find_one({'ai_session': session_id})
 
 
+
+
 def is_verified_user(user_id: str):
     user_ = MongoDBClient.get_users().find_one({'email': user_id})
 

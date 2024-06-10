@@ -11,3 +11,5 @@ class Agent(ABC):
     @abstractmethod
     def act(self) -> bool:
         pass
+
+
